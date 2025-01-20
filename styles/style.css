@@ -63,6 +63,10 @@ cursor: pointer;
     font-size: 3.2rem;
     font-weight:600;
 }
+.with-p{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
 .org{
 color: orange;
 }
@@ -70,9 +74,10 @@ color: orange;
     color: skyblue;
 }
 .banner-pr{
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
 }
 .child-2{
   
@@ -109,11 +114,36 @@ color: orange;
     justify-content: space-between;
        
     }
-    /* .line-2{
-        background-color:black; 
-      width: 20%; 
-      height: .5px;
-      width: 15px;
-      cursor: pointer;
-    } */
+    
+    .banner-pr{
+display: flex;
+flex-direction: column;
+flex-direction: column-reverse;
+
+    }
+    .emp-h1{
+        margin: 0px auto;
+        padding: 0px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .with-p{
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .btn-e{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .btn-r{
+       text-align: center; 
+       margin-top: 25px;
+    }
 }
