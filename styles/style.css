@@ -1,3 +1,119 @@
-*{
-    background-color: brown;
+/* shared */
+.btn-e{
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* navber related */
+.navber{
+    width: 90vw;
+    height: 90vh;
+    /* border: 2px solid tomato; */
+    margin: auto;
+}
+.nav-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    
+}
+.four-btn{
+    margin-top: 20px;
+}
+.h-b{
+    border: none;
+    background-color: white;
+    color: rgba(254, 163, 1, 1);
+    cursor: pointer;
+}
+.a-b{
+border: none;
+color: rgba(1, 172, 253, 1);
+background-color: white;
+cursor: pointer;
+}
+.f-b{
+border: none;
+background-color: white;
+color: rgba(5, 212, 223, 1);
+cursor: pointer;
+}
+.ad-b{
+    border: none;
+    background-color: white;
+    color: rgba(93, 88, 239, 1);
+    cursor: pointer;
+}
+.con-b{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(254, 163, 1, 1);
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 15px;
+}
+/* banner */
+.emp-h1{
+    font-size: 3.2rem;
+    font-weight:600;
+}
+.org{
+color: orange;
+}
+.sk{
+    color: skyblue;
+}
+.banner-pr{
+    border: 2px solid tomato;
+    display: flex;
+    justify-content: space-evenly;
+}
+.child-2{
+  
+}
+.ima{
+    width: 100%;
+}
+/* small  */
+@media screen and (max-width:576px) {
+    .four-btn,
+    .no,
+    .con-b
+    {
+        display:none ;
+    }
+    .humba{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+   
+    }
+    .line{
+      background-color: black; 
+      width: 20%; 
+      height: .5px;
+      width: 25px;
+    }
+    .nav-parent{
+        width: ;
+    border: 1px solid orange;
+    justify-content: space-between;
+       
+    }
+    /* .line-2{
+        background-color:black; 
+      width: 20%; 
+      height: .5px;
+      width: 15px;
+      cursor: pointer;
+    } */
 }
