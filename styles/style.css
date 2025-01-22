@@ -191,8 +191,8 @@ cursor: pointer;
 
 }
 .story-1{
-background-image: linear-gradient(white,skyblue); 
-width: 36%;
+/* background-image: linear-gradient(white,skyblue); 
+width: 36%; */
 border-radius: 10px;
 box-shadow: 10px;
 margin: 0px;
@@ -206,7 +206,34 @@ padding: 30px;
 font-size: 1rem;
 font-weight: 500;
 }
-
+/* footer */
+.footer{
+    width:100% ;
+    background-color: rgba(1, 172, 253, 1);
+   
+}
+.sec{
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+}
+.sec > div{
+   
+}
+.one{
+    display: flex;
+}
+.butt{
+    color: white;
+    border: none;
+    background-color:  rgba(1, 172, 253, 1);
+}
+.zz{
+    color: white;
+    border: none;
+    background-color: rgba(1, 172, 253, 1);
+    cursor: pointer;
+}
 /* small  */
 @media screen and (max-width:576px) {
     .four-btn,
